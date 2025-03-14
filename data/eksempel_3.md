@@ -1,0 +1,2 @@
+# Projektbeskrivelse
+Der skal udbygges en ny transformerstation på Vejle havn og det forventes at det kræver ca. 4 medarbejdere. En projektleder, en stærkstrømsingeniør og to mekanikingeniører. Projektet forventes at løbe fra 1. januar 2026 til 4. april 2027 i forskellige stadier. 
