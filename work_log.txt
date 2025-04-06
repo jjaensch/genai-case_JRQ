@@ -12,9 +12,16 @@ Søge efter modeller, tanker omkring at tilgå løsning
 
 09:20-09:40
 Læs md, ikke OOP
-10:06
+-10:06
 Nu OOP, debugged
 
+10:15-10:50
+Load model
+Run single prompt
+Loop i main
+
+
+!!! huska t tjekke op på naming convention med camelcase i class og methods
 
 /*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_
 
