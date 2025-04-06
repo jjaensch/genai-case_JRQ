@@ -13,7 +13,15 @@ class DanskGPTTiny:
                                  input_str: str, prompt: str, 
                                  var_temperature: float = 0.8, var_top_p: float = 0.95, var_max_tokens: int = 1024):
         # Combine the prompt and input string
-        new_prompt = f"{prompt}{input_str}<|im_end|>\n<|im_start|>assistant\n"
+        ### new_prompt = f"{prompt}{input_str}<|im_end|>\n<|im_start|>assistant\n"
+
+
+        system_message = prompt.split('---')[0] #"Du er en hjælpsom assistent."
+        conversation_history = f"<|im_start|>system\n{system_message}<|im_end|>\n<|im_start|>user\n"
+        # while True:
+        #     user_prompt = input("Bruger: ")
+        #     new_prompt = f"{conversation_history}{prompt}<|im_end|>\n<|im_start|>assistant\n"
+        new_prompt = f"{conversation_history}{input_str}<|im_end|>\n"
 
         # Tokenize the input prompt
         input_ids = self.tokenizer.encode(new_prompt, return_tensors="pt")

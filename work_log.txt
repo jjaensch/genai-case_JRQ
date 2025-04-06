@@ -31,9 +31,11 @@ Fuck, kæmpe version problematik. Upgrade fra 3.9 py til 3.12,
 Fuck mig, vllm er sygt broke...
 
 -16:05
-Huggingface's egen pakke transformers virker! 
+Huggingface's egen pakke transformers virker! + accelerate package
 Converted fra vllm til transformers
 
+-16:25 
+modellen kører igennem, men prompt er ikek formateret korrekt + det ligner den chatter
 
 
 !!! huska t tjekke op på naming convention med camelcase i class og methods
