@@ -51,7 +51,10 @@ Debugged og opgaven er løst.
 -18:00
 Write to md
 Case done!
+-vent, den skriver volapyk i output igen
 
+-18:07
+end of session, aftensmad og putning
 
 !!! huska t tjekke op på naming convention med camelcase i class og methods
 !!! læs op på tokenization, tokens, prompt engineer
