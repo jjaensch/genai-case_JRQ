@@ -37,8 +37,21 @@ Converted fra vllm til transformers
 -16:25 
 modellen kører igennem, men prompt er ikek formateret korrekt + det ligner den chatter
 
+-16:50
+et prompt tager 3 min før jeg kan se på debugging
+
+-17:40
+Nå, nu virker det som det skal. 
+Tiden er gået med debugging, formattering af prompt for at stoppe hallucinering. 
+Det var de der tokens den var galt med. 
+Herefter var problemet at der lige skulle frafiltreres et input.
+Debugged og opgaven er løst. 
+
+
+
 
 !!! huska t tjekke op på naming convention med camelcase i class og methods
+!!! læs op på tokenization, tokens, prompt engineer
 
 /*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_
 

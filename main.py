@@ -13,18 +13,10 @@ def main():
 
     # - w data, prompt model
     for description in project_descriptions:
+        print(f'Project number {project_descriptions.index(description)+1} of {len(project_descriptions)} projects.\nModel response:')
         output = model.run_prompt_single_input(description, prompt_text)
         # Output enhancements
-        print(output)
-
-    ## Printouts for test
-    # print("!#!#!#!#!#!#!#Prompt Text!#!#!#!#!#!#!#")
-    # print(prompt_text, "\n")
-    # for description in project_descriptions:
-    #     print(f"!#!#!#!#!#!#!#Project Description {project_descriptions.index(description) + 1} of {len(project_descriptions)}!#!#!#!#!#!#!#")
-    #     print(description)
-    #     print("\n")
-    # print("End of Script\n")
+        print(output,'\n')
 
 if __name__ == "__main__":
     main()
