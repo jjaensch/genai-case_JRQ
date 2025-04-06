@@ -25,6 +25,9 @@ Tidsforbrug ved break
 Dokumentation: 1h
 Kode: 1h30m
 
+15:00-
+Lækker øl på bordet, klar til kode!
+
 !!! huska t tjekke op på naming convention med camelcase i class og methods
 
 /*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_
