@@ -10,6 +10,12 @@ Søge efter modeller, tanker omkring at tilgå løsning
 !NB det er valgt at gå med en chat model (chatMl som OpenAI modeller) - trods at der ikke er behov for chat kapabilitet. 
 --> modellen hentes ned og skal kunne køres offline. Valgt pba. sprog og dokumentation. 
 
+09:20-09:40
+Læs md, ikke OOP
+10:06
+Nu OOP, debugged
+
+
 /*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_
 
 ######
