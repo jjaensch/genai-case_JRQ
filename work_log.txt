@@ -56,6 +56,10 @@ Case done!
 -18:07
 end of session, aftensmad og putning
 
+18.40-18.42
+Debug, det virker, men modellen er super dårlig. 
+v1 submit. 
+
 !!! huska t tjekke op på naming convention med camelcase i class og methods
 !!! læs op på tokenization, tokens, prompt engineer
 

@@ -1,0 +1,1 @@
+Det ser ud til, at du har givet en detaljeret beskrivelse af et projekt, men jeg kan ikke se, hvordan det passer ind i retningslinjerne for projektbeskrivelser. Kan du give mere information eller detaljer om projektet?

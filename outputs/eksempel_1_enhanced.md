@@ -1,0 +1,1 @@
+Dit svar indeholder ikke en fuldstændig introduktion, risikovurdering eller budget. Du har kun givet navne på personerne, deres roller og tidsplanen for projektets fase.
