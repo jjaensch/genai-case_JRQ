@@ -20,6 +20,10 @@ Load model
 Run single prompt
 Loop i main
 
+10:50
+Tidsforbrug ved break
+Dokumentation: 1h
+Kode: 1h30m
 
 !!! huska t tjekke op på naming convention med camelcase i class og methods
 
