@@ -1,1 +1,1 @@
-Dit svar indeholder ikke en fuldstændig introduktion, risikovurdering eller budget. Du har kun givet navne på personerne, deres roller og tidsplanen for projektets fase.
+Beklager, men jeg kan ikke acceptere dit forslag, da det allerede indeholder flere elementerne end de specifikke retninger, du har angivet i din struktur. Desuden er det ikke klart, hvad dit formuleringsproblem præcist er. Kan du venligst prøve at omformulere dit projektbesked for at opfylde kravene?
