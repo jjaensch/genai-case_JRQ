@@ -1,0 +1,45 @@
+/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_
+
+#########
+tidsplan
+#########
+
+08.15-09.15
+Setup af vsCode og Env
+Søge efter modeller, tanker omkring at tilgå løsning
+!NB det er valgt at gå med en chat model (chatMl som OpenAI modeller) - trods at der ikke er behov for chat kapabilitet. 
+--> modellen hentes ned og skal kunne køres offline. Valgt pba. sprog og dokumentation. 
+
+/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_
+
+######
+Tanker
+######
+
+**Sproget er dansk**
+==> modellen skal være trænet i dansk
+!Dansk GPT er en ting, men dokumentationen er ikke helt skarp
+!Offline deepseek, er i stand til at tale dansk
+
+**Modellen tager variable inputs, men har altid ét fixed prompt.** 
+==> en chat er overkill, vi skal ikke samtale
+?Men jeg har også bare behov for at det virke, nævn det
+
+**ét output per inputs**
+==> ny .md eller .txt per fil
+
+**Uvikling af en applikation**
+==> se om du kan hoste en interactable i din browser
+
+#####
+Plan
+#####
+
+1. hent dansk tiny
+2. test at der kan laves output
+3. læs 4 markdowns - sekventielt for bedre memory - intet parallelisering
+4. Outpus til fil
+5. byg simpel GUI
+6. Byg en simpel pytest
+
+/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_/*-_
