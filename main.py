@@ -1,11 +1,11 @@
 from src.readers import MarkdownLoader
-from src.danskGPT_tiny import DanskGPTTiny
+from src.danskGPT_tiny import LanguageModel
 from src.writers import MarkdownWriter
 
 def main():
     
     # Prepare model
-    model = DanskGPTTiny()
+    model = LanguageModel(MODEL_NAME='mhenrichsen/danskgpt-tiny-chat')
 
     # prepare input and prompt
     text_loader = MarkdownLoader()
@@ -15,7 +15,10 @@ def main():
     # - w data, prompt model
     text_writer = MarkdownWriter()
     for filename, project_desc in project_descriptions_dict.items():
-        output = model.run_prompt_single_input(project_desc, guiding_prompt)
+        output = model.run_prompt_single_input(project_desc, 
+                                               guiding_prompt,
+                                               var_temperature = 0.2,
+                                               )
         text_writer.write_md(output, filename)
         
 

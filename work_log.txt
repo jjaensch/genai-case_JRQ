@@ -60,6 +60,11 @@ end of session, aftensmad og putning
 Debug, det virker, men modellen er super dårlig. 
 v1 submit. 
 
+19:30-19:34
+v1.1
+Flere parametre
+stadig skidt svar
+
 !!! huska t tjekke op på naming convention med camelcase i class og methods
 !!! læs op på tokenization, tokens, prompt engineer
 

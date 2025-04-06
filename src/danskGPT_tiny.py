@@ -2,7 +2,7 @@
 # https://huggingface.co/mhenrichsen/danskgpt-tiny-chat 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-class DanskGPTTiny:
+class LanguageModel:
     def __init__(self, 
                  MODEL_NAME='mhenrichsen/danskgpt-tiny-chat'):
         # Load the tokenizer and model from the transformers library
@@ -16,7 +16,12 @@ class DanskGPTTiny:
                                  input_str: str, prompt: str, 
                                  var_temperature: float = 0.8, 
                                  var_top_p: float = 0.95, 
-                                 var_max_tokens: int = 1024 #is max, previous 1024
+                                 var_max_tokens: int = 1024, #2048 is max for danskGPT-tiny
+                                 var_repetition_penalty: float = 1.1,
+                                 var_do_sample: bool = True,
+                                 var_num_beams: int = 1,
+                                 var_no_repeat_ngram_size: int = 2,
+                                 var_length_penalty: float = 1.0
                                  ):
 
         prompt_trim = prompt.split('---')[0] #"Du er en hjælpsom assistent."
@@ -38,7 +43,12 @@ class DanskGPTTiny:
             max_new_tokens=var_max_tokens,
             temperature=var_temperature,
             top_p=var_top_p,
-            do_sample=True,
+            repetition_penalty=var_repetition_penalty,
+            do_sample=var_do_sample,
+            num_beams=var_num_beams,
+            no_repeat_ngram_size=var_no_repeat_ngram_size,
+            length_penalty=var_length_penalty,
+            pad_token_id=self.tokenizer.pad_token_id,
             eos_token_id=self.tokenizer.eos_token_id  # <-- stop på korrekt sted
         )
         
