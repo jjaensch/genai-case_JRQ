@@ -25,8 +25,16 @@ Tidsforbrug ved break
 Dokumentation: 1h
 Kode: 1h30m
 
-15:00-
+15:00-15:45
 Lækker øl på bordet, klar til kode!
+Fuck, kæmpe version problematik. Upgrade fra 3.9 py til 3.12, 
+Fuck mig, vllm er sygt broke...
+
+-16:05
+Huggingface's egen pakke transformers virker! 
+Converted fra vllm til transformers
+
+
 
 !!! huska t tjekke op på naming convention med camelcase i class og methods
 
