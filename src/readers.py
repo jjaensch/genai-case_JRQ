@@ -21,14 +21,14 @@ class MarkdownLoader:
         return prompt_text
 
     #%%
-    def load_input_data(self) -> list[str]:
+    def load_input_data(self) -> dict[str, str]:
         data_file_strs = os.listdir(self.data_dir)
-        input_data_strs = []
+        input_data_dict = {}
         for file in data_file_strs:
             if file.endswith(".md"):
                 file_path = os.path.join(self.data_dir, file)
                 with open(file_path, 'r', encoding='utf-8') as f:
-                    input_data_strs.append(f.read())
+                    input_data_dict[file] = f.read()
             else:
                 raise ValueError(f"File {file} is not in .md format. Please check the file format. Reading skipped.")
-        return input_data_strs
+        return input_data_dict

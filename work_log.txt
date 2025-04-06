@@ -48,6 +48,9 @@ Herefter var problemet at der lige skulle frafiltreres et input.
 Debugged og opgaven er løst. 
 
 
+-18:00
+Write to md
+Case done!
 
 
 !!! huska t tjekke op på naming convention med camelcase i class og methods

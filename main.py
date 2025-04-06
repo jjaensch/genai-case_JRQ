@@ -1,5 +1,6 @@
 from src.readers import MarkdownLoader
 from src.danskGPT_tiny import DanskGPTTiny
+from src.writers import MarkdownWriter
 
 def main():
     
@@ -8,15 +9,15 @@ def main():
 
     # prepare input and prompt
     text_loader = MarkdownLoader()
-    project_descriptions = text_loader.load_input_data()
-    prompt_text = text_loader.load_prompt()
+    project_descriptions_dict = text_loader.load_input_data()
+    guiding_prompt = text_loader.load_prompt()
 
     # - w data, prompt model
-    for description in project_descriptions:
-        print(f'Project number {project_descriptions.index(description)+1} of {len(project_descriptions)} projects.\nModel response:')
-        output = model.run_prompt_single_input(description, prompt_text)
-        # Output enhancements
-        print(output,'\n')
+    text_writer = MarkdownWriter()
+    for filename, project_desc in project_descriptions_dict.items():
+        output = model.run_prompt_single_input(project_desc, guiding_prompt)
+        text_writer.write_md(output, filename)
+        
 
 if __name__ == "__main__":
     main()
