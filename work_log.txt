@@ -4,6 +4,8 @@
 tidsplan
 #########
 
+### Søndag 06-04
+
 08.15-09.15
 Setup af vsCode og Env
 Søge efter modeller, tanker omkring at tilgå løsning
@@ -64,6 +66,15 @@ v1 submit.
 v1.1
 Flere parametre
 stadig skidt svar
+
+
+### Mandag 07-04
+08:35-08:45
+Opsætning på privat laptop
+afpudsning af readable code
+
+
+
 
 !!! huska t tjekke op på naming convention med camelcase i class og methods
 !!! læs op på tokenization, tokens, prompt engineer
