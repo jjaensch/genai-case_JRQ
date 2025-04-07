@@ -1,6 +1,6 @@
 import os
 
-DEFAULT_DATA_DIR = r"../data/", 
+DEFAULT_DATA_DIR = r"../data/" 
 DEFAULT_PROMPT_DIR = r"../prompt/"
 
 #%%

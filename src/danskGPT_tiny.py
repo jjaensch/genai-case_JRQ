@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 class LanguageModel:
     def __init__(self, 
                  MODEL_NAME='mhenrichsen/danskgpt-tiny-chat'):
-        self.tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+        self.tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, use_fast=False)
         self.model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
         # Håndtér manglende pad_token
         if self.tokenizer.pad_token is None:
